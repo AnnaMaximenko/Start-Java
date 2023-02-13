@@ -1,0 +1,13 @@
+ class Cat {
+private String name;
+private LocalDate birthDay;
+private String color;
+private List<Trick> tricks;
+}
+
+class Trick {
+private String name;
+private String description;
+private List<String> conditions; // условия
+private List<String> props; // реквизиты
+}
